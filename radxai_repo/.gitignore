@@ -1,0 +1,34 @@
+# Data / model artifacts (large, not for version control)
+data/
+logs/
+output/
+*.parquet
+*.npy
+*.faiss
+*.safetensors
+*.jsonl
+chexpert_cache/
+vrag_database/
+llava_vrag_adapter/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# Env / secrets
+.env
+kaggle.json
+*.token
+
+# Conda / venv
+venv/
+.venv/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.jupyter/
